@@ -1,0 +1,83 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e6ecf8;  /* Light blue background */
+    color: #333333;  /* Darker text for better readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+h1 {
+    color: #0047ab;  /* Strong blue for main titles */
+    font-size: 33px;  /* Prominent size */
+    text-align: center;
+    margin-top: 20px; /* Spacing from top */
+    margin-bottom: 20px; /* Spacing from bottom */
+}
+
+/* Subheader styles */
+h2 {
+    color: #024b9e;  /* Darker blue for distinction */
+    font-size: 26px;  /* Significant but smaller than h1 */
+    text-align: left;  /* Align left for sub-sections */
+    margin-top: 15px; /* Consistent top margin */
+    margin-bottom: 15px; /* Consistent bottom margin */
+}
+
+/* Button styles */
+button, .stButton>button {
+    background-color: #0056b3; /* Blue background */
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease; /* Smooth effect on hover */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Subtle shadow */
+}
+
+button:hover, .stButton>button:hover {
+    background-color: #003d7a; /* Darker blue on hover */
+}
+
+/* Styling for Streamlit sliders */
+.stSlider .thumb {
+    background-color: #0074d9; /* Consistent blue theme for sliders */
+}
+
+.stSlider .track {
+    background-color: #b7c6da; /* Soft blue-grey track */
+}
+
+/* Style for Streamlit Selectbox */
+.selectbox {
+    background-color: #ffffff; /* Updated to a white background for better contrast */
+    color: #333333; /* Updated to a darker text color for readability */
+    width: 100%;
+    padding: 10px 15px; /* Comfortable padding */
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 14px; /* Smaller font size for a refined look */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    transition: box-shadow 0.3s ease-in-out; /* Transition for focus or hover */
+}
+
+.selectbox:focus, .selectbox:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* More pronounced shadow on focus/hover */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #0047ab; /* Matching the headers */
+    font-weight: bold;
+}
+
+/* Additional styles for Markdown content in Streamlit */
+div[data-testid="stMarkdown"] {
+    font-family: 'Verdana', sans-serif; /* Using Verdana for a change */
+    font-size: 14px; /* Smaller and finer text */
+    
+}
