@@ -119,7 +119,7 @@ def show_page_two():
 
 
 def show_page_three():
-    st.subheader("Questionnaire Section 1/5")
+    st.subheader("Le questionnaire ")
 
     st.write("""
     Veuillez évaluer chaque affirmation en fonction de votre propre expérience.
